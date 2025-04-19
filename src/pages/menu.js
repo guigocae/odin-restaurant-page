@@ -41,7 +41,7 @@ function Menu(content) {
 
         // Append itens in the main div
         const divItem = document.createElement('div');
-        divItem.id = crypto.randomUUID();
+        // divItem.id = crypto.randomUUID();
         divItem.appendChild(sectionItem);
         divItem.appendChild(description);
         divItem.appendChild(value);

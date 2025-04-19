@@ -6,7 +6,7 @@ import Menu from './pages/menu';
 import About from './pages/about';
 
 const content = document.querySelector("#content");
-//About(content);
+Home(content);
 
 (function handleNavigation() {
     const home = document.querySelector("#home");
