@@ -1,0 +1,52 @@
+:root {
+    --background: #3A445D;
+    --buttons: #808F85;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("../Inter-VariableFont_opsz\,wght.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: Inter, 'sans-serif';
+}
+header {
+    padding-block: 20px;
+    box-shadow: 1px 1px 3px black;
+    display: flex;
+    justify-content: center;
+    background-color: var(--background);
+}
+nav {
+    display: flex;
+    gap: 40px;
+}
+nav button {
+    background-color: var(--buttons);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.1em;
+}
+nav button:hover {
+    background-color: #5E5768;
+}
+#content {
+    height: 100%;    
+}
+
+h1 {
+    margin: 0;
+    /*color: white;*/
+    text-align: center;
+    padding: 20px;
+}
